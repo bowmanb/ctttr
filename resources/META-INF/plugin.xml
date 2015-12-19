@@ -2,7 +2,7 @@
 
     <id>com.bowmanb.ctttr</id>
     <name>ctttr</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <vendor email="bowmanb@gmail.com" url="http://github.com/bowmanb/ctttr">Brian Bowman</vendor>
 
     <description>
@@ -30,7 +30,7 @@
 
     <actions>
         <!-- Add your actions here -->
-        <action id="Ctttr.Ctttr" class="com.bowmanb.Ctttr" text="Close tabs to the right">
+        <action id="Ctttr.Ctttr" class="com.bowmanb.Ctttr" text="Close Tabs to the Right">
             <add-to-group group-id="EditorTabPopupMenu" anchor="after" relative-to-action="CloseEditorsGroup"/>
             <keyboard-shortcut keymap="$default" first-keystroke="meta alt T"/>
         </action>
